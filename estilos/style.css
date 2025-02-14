@@ -64,37 +64,76 @@ h1{
 
 .caixa{
   background-color: var(--cor1);
-  padding: 5px;
+  margin: 5px 0px;
   border-radius: 5px;
-  margin-bottom: 3px;
+  padding: 5px;
   
 }
 
-#caixinha{
-  padding: 20px;
-}
 
-.material-symbols-outlined{
+div > .material-symbols-outlined{
   
   color: white;
   display: inline-block;
-}
-
-#iemail{
-  background-color: var(--cor2);
-  padding: 13px 11px 0px 0px;
-  display: inline-block;
-  border: 0;
-  border-radius: 5px;
+  width: 30px;
   
 }
 
-@media screen and (min-width:2400px) { 
-  body,main{
-    position: relative;
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
-  }
 
+
+.caixa > input{
+  background-color: #66ece5c4;
+  border: 0;
+  height: 36px;
+  border-radius: 5px;
+  display: inline-block;
+  width: calc(100% - 32px);
+
+
+
+}
+
+
+form > input[type=submit] {
+  background-color: #49a09c;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  margin: 5px 0px;
+  color: white;
+  font-size: 1.05em;
+  border-radius: 5px;
+
+}
+
+form > input[type=submit]:hover{
+  background-color: #57c9c3;
+}
+
+
+form > a {
+  display: block;
+  color: #2a5754;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #33706d;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+form > a > .material-symbols-outlined{
+  color:#49a09c;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.9em;
+  
+  
+}
+
+
+form > a:hover {
+  background-color: #2a5754;
+  color: white;
 }
