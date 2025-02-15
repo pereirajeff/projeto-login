@@ -88,7 +88,7 @@ div > .material-symbols-outlined{
   border-radius: 5px;
   display: inline-block;
   width: calc(100% - 32px);
-
+  transform: translateY(-2px);
 
 
 }

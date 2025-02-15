@@ -54,7 +54,7 @@
   
     
         #login{
-            width: 60vw;
+            width: 52vw;
             height: 38vh;
             transition: width .1s,height .1s;
             transition-timing-function: ease;
@@ -84,12 +84,12 @@
         }    
 
         h1{
-            font-size: 2.5em;
+            font-size: 1.5em;
             margin-bottom: 10px;
         }
 
         #login >  #formulario > p{
-            font-size: 1.1em;
+            font-size: 1em;
             margin-bottom: 10px;
         }
 
