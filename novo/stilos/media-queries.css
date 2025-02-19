@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body, main {
+        position: relative;
+        background-image: linear-gradient(to top, #5f2c82, #49a09c);
+        height: 100vh;
+        width: 100vw;
+        transition: 1s;
+        transition-timing-function: ease;
+       
+    }
+
+
+    #login{
+        position: relative;
+        background-color: white;
+        height: 32vh;
+        width: 80vw;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px 20px;
+        box-shadow: 1px -1px 13px 2px #00000083;
+    }
+
+    #imagem{
+        float: left;
+        width: 23vw;
+        border-radius: 20px 0px 0px 20px;
+        height: 32vh;
+
+    }
+    #formulario{
+        float: right;
+        width: 55vw;
+        height: 0;
+        padding: 5px;
+    }
+    
+}
+
+
+@media screen and (min-width:993px) {
+    body, main{
+        position: relative;
+        background-image: linear-gradient(to top, #5f2c82, #49a09c);
+        height: 100vh;
+        width: 100vw;
+        transition: 1s;
+        transition-timing-function: ease;
+    }
+    
+    #login{
+        position: relative;
+        background-color: white;
+        height: 40vh;
+        width: 80vw;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px 20px;
+        box-shadow: 1px -1px 13px 2px #00000083;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+        height: 40vh;
+
+    }
+    #formulario , form{
+        float: left;
+        width: 39vw;
+        height: 45vh;
+        padding: 5px;
+        margin-top: 10px;
+    }
+     
+    #formulario > form > h1{
+        margin: 5px 0px 30px 10px;
+        font-size: 2em;  
+
+    }
+
+    #formulario > form > p{
+        margin: 5px 0px 15px 0px;
+        font-size: 1em;  
+
+    }
+}
