@@ -4,31 +4,38 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 
-main, body{
+ body{
     background-color: #5f2c82;
+    
 }
-
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 #imagem{
     background: #4b959b url(../imagens/fundo.jpg) center center no-repeat fixed  ;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 22vh;
+    
 }
 
-#login{
-    position: relative;
+#login {
+    
     background-color: white;
     height: 60vh;
     width: 50vw;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,30%);
     border-radius: 20px 20px;
     box-shadow: 1px -1px 13px 2px #00000083;
+   
 
 }
 
