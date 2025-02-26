@@ -21,6 +21,17 @@ body,main{
   background-color: var(--cor1);
   height: 100vh;
   width: 100vw;
+ 
+
+}
+
+main{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+ 
+ 
 }
 
 img{
@@ -36,20 +47,18 @@ img{
 
 #login{
   
-  position: absolute;
+  
   background-color: white;
   margin: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
   border-radius: 20px;
   box-shadow: 2px 4px 6px 1px #00000087;
+  width: 52vw;
 }
 
 
 #formulario{
   padding: 15px;
-  display: block;
+  
 }
 
 h1{
